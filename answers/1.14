@@ -1,0 +1,3 @@
+echo "docker stop $(docker ps -aq)"
+echo "docker rm $(docker ps -aq)"
+echo "docker rmi $(docker images -q)"
